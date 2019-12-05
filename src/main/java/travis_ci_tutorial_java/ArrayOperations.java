@@ -17,6 +17,12 @@ public class ArrayOperations
    }
  
    
+   public static int add(int a, int b)
+   {
+	   return a+b;
+   }
+   
+   
    public static int findLast(int[] x, int y) 
    {
       if (x == null) 
