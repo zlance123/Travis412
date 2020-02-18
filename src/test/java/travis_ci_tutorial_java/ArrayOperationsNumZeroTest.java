@@ -10,7 +10,7 @@ public class ArrayOperationsNumZeroTest
    {
       int x[] = {};     // zero-sized array
       int n = ArrayOperations.numZero(x);
-      assertEquals("0 zeros", 0, n);      
+      assertEquals("0 zeros", 1, n);
    }
    
    @Test
